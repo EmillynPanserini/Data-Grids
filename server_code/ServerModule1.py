@@ -26,3 +26,7 @@ def update_movie(movie, movie_data):
       movie_data['year']
      ):
       movie.update(**movie_data)
+
+@anvil.server.callable
+def delete_movie(movie):
+  movie.delete()

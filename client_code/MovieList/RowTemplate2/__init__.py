@@ -15,3 +15,6 @@ class RowTemplate2(RowTemplate2Template):
 
   def edit_row_click(self, **event_args):
     self.parent.raise_event('x-edit_movie', movie=self.item)
+
+  def delete_row_click(self, **event_args):
+    self.parent.raise_event('x-delete_movie', movie=self.item)

@@ -11,14 +11,19 @@ components:
   - name: repeating_panel_1
     properties: {item_template: MovieList.RowTemplate2}
     type: RepeatingPanel
+  - event_bindings: {click: add_movie_click}
+    layout_properties: {}
+    name: add_movie
+    properties: {text: Add Movie}
+    type: Button
   layout_properties: {slot: default}
   name: data_grid_1
   properties:
     columns:
     - {data_key: movie_name, id: JKSDUP, title: Movie Name}
     - {data_key: director, id: VJQQOR, title: Director}
-    - {data_key: year, id: OJLQEN, title: Year, width: '100'}
-    - {data_key: column_1, id: VLTKPA, title: Column 1}
+    - {data_key: year, id: OJLQEN, title: Year}
+    - {data_key: column_1, id: VLTKPA, title: ''}
   type: DataGrid
 container:
   properties: {html: '@theme:standard-page.html'}
