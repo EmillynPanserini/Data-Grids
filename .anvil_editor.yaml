@@ -3,8 +3,10 @@ unique_ids:
     standard-page.html: 33NVMHJK6SN5RQ4QZWTQOTJI72O74DMM
     theme.css: VFLAGTXQWTEFQABY5N57Y5QFF5DZ5SVN
   forms:
+    MovieEdit: '1752678553648367669640124.9545'
     MovieList: 7YLLETHYJ3BNQUF4XFOAYP5HKZ2Y7NOK
-    MovieList.RowTemplate1: '175267575319723777294964.47145'
+    MovieList.RowTemplate2: '1752679916397272264401128.95178'
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1752677798511725514789571.6141'

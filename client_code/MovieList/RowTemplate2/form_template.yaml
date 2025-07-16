@@ -1,0 +1,8 @@
+components:
+- event_bindings: {click: edit_row_click}
+  layout_properties: {column: VLTKPA}
+  name: edit_row
+  properties: {icon: 'fa:edit', text: ''}
+  type: Button
+container: {type: DataRowPanel}
+is_package: true
